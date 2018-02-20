@@ -1,0 +1,7 @@
+.glide/
+*.dll
+*.dylib
+*.exe
+*.out
+*.so
+*.test

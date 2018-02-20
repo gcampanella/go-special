@@ -1,0 +1,1 @@
+# Special functions in Go
