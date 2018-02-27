@@ -6,7 +6,7 @@ import "math"
 
 func LowerIncompleteGamma(a, x float64) float64 {
 	if x <= 0 || a <= 0 {
-		return
+		return 0
 	}
 	if x > 1 && x > a {
 		return 1 - UpperIncompleteGamma(a, x)
